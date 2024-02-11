@@ -1,0 +1,59 @@
+    
+#outline{
+border: 1px solid black;
+
+}
+#heading {
+    padding: 10px;
+border: 1px solid black;
+color: aliceblue;
+background-color: blue;
+    text-align:left ;
+    line-height: 1px;
+    
+
+}
+#name{
+color: white;
+}
+#body_1{
+border: 1px  solid black;
+min-height: 100vh;
+display: flex;
+gap: 20px;
+
+}
+#personal-details{
+border: 1px solid black;
+min-height: 700px;
+width: 300px;
+}
+#rightside{
+    border: 1px solid black;
+    width: 100%;
+    height:700px ;
+    overflow: scroll;
+    padding: 10px;
+}
+#rightside::-webkit-scrollbar{
+    width: 10px;
+    
+}
+#rightside::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px grey;
+    border-radius:10px ;
+    
+}
+#rightside::-webkit-scrollbar-thumb{
+    background-color: blue;
+    border-radius: 10px;
+}
+h1{
+    color: blue;
+}
+a{
+    color: aliceblue;
+}
+ul,p{
+    font-family: 'Times New Roman', Times, serif;
+}
