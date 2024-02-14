@@ -7,26 +7,35 @@ border: 1px solid black;
     padding: 10px;
 border: 1px solid black;
 color: aliceblue;
-background-color: blue;
+background-color: rgb(4, 4, 71);
     text-align:left ;
     line-height: 1px;
+    display: flex;
+    gap: 20px;
     
-
 }
+img{
+height: 170px;
+}
+
 #name{
-color: white;
+color: lime;
+
 }
 #body_1{
 border: 1px  solid black;
 min-height: 100vh;
+
 display: flex;
 gap: 20px;
 
 }
 #personal-details{
+    background-color: rgb(47, 49, 53);
 border: 1px solid black;
+color: white;
 min-height: 700px;
-width: 300px;
+width: 450px;
 }
 #rightside{
     border: 1px solid black;
@@ -49,11 +58,89 @@ width: 300px;
     border-radius: 10px;
 }
 h1{
-    color: blue;
+    color: red;
 }
 a{
+    text-transform: none;
     color: aliceblue;
 }
 ul,p{
     font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    color: rgb(123, 0, 255);
+}
+@media screen and (max-width:768px){
+        
+#outline{
+    border: 1px solid black;
+    
+    }
+    #heading {
+        padding: 10px;
+    border: 1px solid black;
+    color: aliceblue;
+    background-color: rgb(4, 4, 71);
+        text-align:left ;
+        line-height: 1px;
+        display: flex;
+        gap: 20px;
+        
+    }
+    img{
+    height: 120px;
+    }
+    
+    #name{
+    color: lime;
+    
+    }
+    #body_1{
+    border: 1px  solid black;
+    min-height: 100vh;
+    
+    display: flex;
+    gap: 20px;
+    
+    }
+    #personal-details{
+        background-color: rgb(47, 49, 53);
+    border: 1px solid black;
+    color: white;
+    min-height: 700px;
+    width: 250px;
+    }
+    #rightside{
+        border: 1px solid black;
+        width: 100%;
+        height:700px ;
+        overflow: scroll;
+        padding: 10px;
+    }
+    #rightside::-webkit-scrollbar{
+        width: 10px;
+        
+    }
+    #rightside::-webkit-scrollbar-track{
+        box-shadow: inset 0 0 5px grey;
+        border-radius:10px ;
+        
+    }
+    #rightside::-webkit-scrollbar-thumb{
+        background-color: blue;
+        border-radius: 10px;
+    }
+    h1{
+        color: red;
+    }
+    a{
+        text-transform: none;
+        color: aliceblue;
+    }
+    ul,p{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    h3{
+        color: rgb(123, 0, 255);
+    }
 }
